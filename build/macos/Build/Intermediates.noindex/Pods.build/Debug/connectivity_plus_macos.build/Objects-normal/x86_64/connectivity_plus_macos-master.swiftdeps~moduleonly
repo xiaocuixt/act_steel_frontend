@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "2c5303f56011b4aff55b4a4f92a898b8"
+build_time: [1653996444, 253674000]
+inputs:
+  "/Users/Evan/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_plus_macos-1.2.2/macos/Classes/ConnectivityPlugin.swift": [1650084786, 136620720]
+  "/Users/Evan/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_plus_macos-1.2.2/macos/Classes/ConnectivityProvider.swift": [1650084786, 138990539]
+  "/Users/Evan/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_plus_macos-1.2.2/macos/Classes/PathMonitorConnectivityProvider.swift": [1650084786, 144060529]
+  "/Users/Evan/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_plus_macos-1.2.2/macos/Classes/ReachabilityConnectivityProvider.swift": [1650084786, 141278996]

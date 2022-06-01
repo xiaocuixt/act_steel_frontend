@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "d3a51abaa46c0fa386e2c4e5b3f52d0d"
+build_time: [1653996431, 619945000]
+inputs:
+  "/Users/Evan/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-2.0.5/macos/Classes/PathProviderPlugin.swift": [1648486850, 0]

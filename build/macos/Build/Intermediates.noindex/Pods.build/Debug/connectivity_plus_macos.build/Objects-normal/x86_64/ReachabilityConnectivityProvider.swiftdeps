@@ -1,0 +1,316 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ReachabilityConnectivityProvider"
+provides-nominal:
+- "23connectivity_plus_macos32ReachabilityConnectivityProviderC"
+provides-member:
+- ["23connectivity_plus_macos32ReachabilityConnectivityProviderC", ""]
+provides-dynamic-lookup:
+- "_reachability"
+- "connectivityUpdateHandler"
+- "currentConnectivityType"
+- "ensureReachability"
+- "reachabilityChanged"
+- "start"
+- "stop"
+depends-top-level:
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "ConnectivityProvider"
+- "ConnectivityType"
+- "ConnectivityUpdateHandler"
+- "NSNotification"
+- "NSObject"
+- !private "NotificationCenter"
+- "Reachability"
+- "ReachabilityConnectivityProvider"
+depends-member:
+- ["s7CVarArgP", "ConnectivityUpdateHandler"]
+- !private ["s7CVarArgP", "NotificationCenter"]
+- !private ["s7CVarArgP", "Reachability"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_reachability"]
+- !private ["s7CVarArgP", "addObserver"]
+- ["s7CVarArgP", "connectivityUpdateHandler"]
+- ["s7CVarArgP", "currentConnectivityType"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "ensureReachability"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "reachabilityChanged"]
+- !private ["s7CVarArgP", "removeObserver"]
+- ["s7CVarArgP", "start"]
+- ["s7CVarArgP", "stop"]
+- ["12ReachabilityAAC10ConnectionO", "cellular"]
+- !private ["12ReachabilityAAC10ConnectionO", "unavailable"]
+- ["12ReachabilityAAC10ConnectionO", "wifi"]
+- ["23connectivity_plus_macos20ConnectivityProviderP", "ConnectivityUpdateHandler"]
+- !private ["23connectivity_plus_macos20ConnectivityProviderP", "NotificationCenter"]
+- !private ["23connectivity_plus_macos20ConnectivityProviderP", "Reachability"]
+- ["23connectivity_plus_macos20ConnectivityProviderP", ""]
+- !private ["23connectivity_plus_macos20ConnectivityProviderP", "_reachability"]
+- ["23connectivity_plus_macos20ConnectivityProviderP", "connectivityUpdateHandler"]
+- ["23connectivity_plus_macos20ConnectivityProviderP", "currentConnectivityType"]
+- !private ["23connectivity_plus_macos20ConnectivityProviderP", "ensureReachability"]
+- !private ["23connectivity_plus_macos20ConnectivityProviderP", "reachabilityChanged"]
+- ["23connectivity_plus_macos20ConnectivityProviderP", "start"]
+- ["23connectivity_plus_macos20ConnectivityProviderP", "stop"]
+- !private ["23connectivity_plus_macos16ConnectivityTypeO", "cellular"]
+- !private ["23connectivity_plus_macos16ConnectivityTypeO", "none"]
+- !private ["23connectivity_plus_macos16ConnectivityTypeO", "wifi"]
+- ["s28CustomDebugStringConvertibleP", "ConnectivityUpdateHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "NotificationCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "Reachability"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_reachability"]
+- !private ["s28CustomDebugStringConvertibleP", "addObserver"]
+- ["s28CustomDebugStringConvertibleP", "connectivityUpdateHandler"]
+- ["s28CustomDebugStringConvertibleP", "currentConnectivityType"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "ensureReachability"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "reachabilityChanged"]
+- !private ["s28CustomDebugStringConvertibleP", "removeObserver"]
+- ["s28CustomDebugStringConvertibleP", "start"]
+- ["s28CustomDebugStringConvertibleP", "stop"]
+- !private ["s28CustomDebugStringConvertibleP", "unavailable"]
+- !private ["s17CustomReflectableP", "reachabilityChanged"]
+- !private ["s17CustomReflectableP", "unavailable"]
+- ["s23CustomStringConvertibleP", "ConnectivityUpdateHandler"]
+- !private ["s23CustomStringConvertibleP", "NotificationCenter"]
+- !private ["s23CustomStringConvertibleP", "Reachability"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_reachability"]
+- !private ["s23CustomStringConvertibleP", "addObserver"]
+- ["s23CustomStringConvertibleP", "cellular"]
+- ["s23CustomStringConvertibleP", "connectivityUpdateHandler"]
+- ["s23CustomStringConvertibleP", "currentConnectivityType"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "ensureReachability"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "reachabilityChanged"]
+- !private ["s23CustomStringConvertibleP", "removeObserver"]
+- ["s23CustomStringConvertibleP", "start"]
+- ["s23CustomStringConvertibleP", "stop"]
+- !private ["s23CustomStringConvertibleP", "unavailable"]
+- ["s23CustomStringConvertibleP", "wifi"]
+- !private ["Se", "reachabilityChanged"]
+- !private ["Se", "unavailable"]
+- !private ["SE", "reachabilityChanged"]
+- !private ["SE", "unavailable"]
+- ["SQ", "ConnectivityUpdateHandler"]
+- !private ["SQ", "NotificationCenter"]
+- !private ["SQ", "Reachability"]
+- ["SQ", ""]
+- !private ["SQ", "_reachability"]
+- !private ["SQ", "addObserver"]
+- ["SQ", "cellular"]
+- ["SQ", "connectivityUpdateHandler"]
+- ["SQ", "currentConnectivityType"]
+- !private ["SQ", "default"]
+- !private ["SQ", "ensureReachability"]
+- !private ["SQ", "init"]
+- !private ["SQ", "none"]
+- !private ["SQ", "reachabilityChanged"]
+- !private ["SQ", "removeObserver"]
+- ["SQ", "start"]
+- ["SQ", "stop"]
+- !private ["SQ", "unavailable"]
+- ["SQ", "wifi"]
+- !private ["s23ExpressibleByNilLiteralP", "reachabilityChanged"]
+- !private ["s23ExpressibleByNilLiteralP", "unavailable"]
+- ["SH", "ConnectivityUpdateHandler"]
+- !private ["SH", "NotificationCenter"]
+- !private ["SH", "Reachability"]
+- ["SH", ""]
+- !private ["SH", "_reachability"]
+- !private ["SH", "addObserver"]
+- ["SH", "cellular"]
+- ["SH", "connectivityUpdateHandler"]
+- ["SH", "currentConnectivityType"]
+- !private ["SH", "default"]
+- !private ["SH", "ensureReachability"]
+- !private ["SH", "init"]
+- !private ["SH", "none"]
+- !private ["SH", "reachabilityChanged"]
+- !private ["SH", "removeObserver"]
+- ["SH", "start"]
+- ["SH", "stop"]
+- !private ["SH", "unavailable"]
+- ["SH", "wifi"]
+- ["So8NSObjectC", "ConnectivityType"]
+- ["So8NSObjectC", "ConnectivityUpdateHandler"]
+- ["So8NSObjectC", "NSNotification"]
+- !private ["So8NSObjectC", "NotificationCenter"]
+- ["So8NSObjectC", "Reachability"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "_reachability"]
+- !private ["So8NSObjectC", "addObserver"]
+- ["So8NSObjectC", "connectivityUpdateHandler"]
+- ["So8NSObjectC", "currentConnectivityType"]
+- !private ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "ensureReachability"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "reachabilityChanged"]
+- !private ["So8NSObjectC", "removeObserver"]
+- ["So8NSObjectC", "start"]
+- ["So8NSObjectC", "stop"]
+- ["So8NSObjectP", "ConnectivityUpdateHandler"]
+- !private ["So8NSObjectP", "NotificationCenter"]
+- !private ["So8NSObjectP", "Reachability"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_reachability"]
+- !private ["So8NSObjectP", "addObserver"]
+- ["So8NSObjectP", "connectivityUpdateHandler"]
+- ["So8NSObjectP", "currentConnectivityType"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "ensureReachability"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "reachabilityChanged"]
+- !private ["So8NSObjectP", "removeObserver"]
+- ["So8NSObjectP", "start"]
+- ["So8NSObjectP", "stop"]
+- !private ["So18NSNotificationNamea", "reachabilityChanged"]
+- !private ["So20NSNotificationCenterC", "addObserver"]
+- !private ["So20NSNotificationCenterC", "default"]
+- !private ["So20NSNotificationCenterC", "removeObserver"]
+- !private ["Sq", "reachabilityChanged"]
+- !private ["Sq", "unavailable"]
+- !private ["SY", "reachabilityChanged"]
+- !private ["12ReachabilityAAC", "connection"]
+- !private ["12ReachabilityAAC", "init"]
+- !private ["12ReachabilityAAC", "startNotifier"]
+- !private ["12ReachabilityAAC", "stopNotifier"]
+- ["23connectivity_plus_macos32ReachabilityConnectivityProviderC", "ConnectivityType"]
+- ["23connectivity_plus_macos32ReachabilityConnectivityProviderC", "ConnectivityUpdateHandler"]
+- ["23connectivity_plus_macos32ReachabilityConnectivityProviderC", "NSNotification"]
+- !private ["23connectivity_plus_macos32ReachabilityConnectivityProviderC", "NotificationCenter"]
+- ["23connectivity_plus_macos32ReachabilityConnectivityProviderC", "Reachability"]
+- !private ["23connectivity_plus_macos32ReachabilityConnectivityProviderC", "_reachability"]
+- ["23connectivity_plus_macos32ReachabilityConnectivityProviderC", "connectivityUpdateHandler"]
+- ["23connectivity_plus_macos32ReachabilityConnectivityProviderC", "currentConnectivityType"]
+- ["23connectivity_plus_macos32ReachabilityConnectivityProviderC", "deinit"]
+- !private ["23connectivity_plus_macos32ReachabilityConnectivityProviderC", "ensureReachability"]
+- ["23connectivity_plus_macos32ReachabilityConnectivityProviderC", "init"]
+- !private ["23connectivity_plus_macos32ReachabilityConnectivityProviderC", "reachabilityChanged"]
+- ["23connectivity_plus_macos32ReachabilityConnectivityProviderC", "start"]
+- ["23connectivity_plus_macos32ReachabilityConnectivityProviderC", "stop"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reachabilityChanged"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ConnectivityUpdateHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NotificationCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Reachability"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_reachability"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "connectivityUpdateHandler"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "currentConnectivityType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ensureReachability"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reachabilityChanged"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeObserver"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "start"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "stop"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ConnectivityUpdateHandler"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NotificationCenter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Reachability"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "_reachability"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addObserver"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "connectivityUpdateHandler"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "currentConnectivityType"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ensureReachability"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "reachabilityChanged"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeObserver"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "start"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stop"]
+- !private ["s21_ObjectiveCBridgeableP", "reachabilityChanged"]
+- !private ["s21_ObjectiveCBridgeableP", "unavailable"]
+- !private ["s20_SwiftNewtypeWrapperP", "reachabilityChanged"]
+depends-nominal:
+- "s7CVarArgP"
+- "12ReachabilityAAC10ConnectionO"
+- "23connectivity_plus_macos20ConnectivityProviderP"
+- !private "23connectivity_plus_macos16ConnectivityTypeO"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So18NSNotificationNamea"
+- !private "So20NSNotificationCenterC"
+- !private "Sq"
+- !private "SY"
+- !private "12ReachabilityAAC"
+- "23connectivity_plus_macos32ReachabilityConnectivityProviderC"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Network.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/Evan/belt-erp/act_steel_frontend/build/macos/Build/Products/Debug/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterPluginMacOS.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterPluginRegistrarMacOS.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterMacOS.h"
+- "/Users/Evan/belt-erp/act_steel_frontend/macos/Pods/Target Support Files/connectivity_plus_macos/connectivity_plus_macos-umbrella.h"
+- "/Users/Evan/belt-erp/act_steel_frontend/macos/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-umbrella.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterEngine.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterTexture.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterAppDelegate.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterBinaryMessenger.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterViewController.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterCodecs.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterChannels.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterMacros.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterPlatformViews.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterDartProject.h"
+- "/Users/Evan/belt-erp/act_steel_frontend/build/macos/Build/Products/Debug/ReachabilitySwift/Reachability.framework/Versions/A/Headers/Reachability-Swift.h"
+- "/Users/Evan/belt-erp/act_steel_frontend/build/macos/Build/Intermediates.noindex/Pods.build/Debug/connectivity_plus_macos.build/unextended-module.modulemap"
+- "/Users/Evan/belt-erp/act_steel_frontend/build/macos/Build/Intermediates.noindex/Pods.build/Debug/ReachabilitySwift.build/module.modulemap"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Network.framework/Headers/Network.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "47fa60e50a2b43b9f5d804379d97f56c"

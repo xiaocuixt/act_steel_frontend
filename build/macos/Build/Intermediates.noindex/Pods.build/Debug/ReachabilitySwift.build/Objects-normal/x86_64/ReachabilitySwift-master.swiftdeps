@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "e6352ca50dd1f4aff64853942c7d282d"
+build_time: [1653996431, 620511000]
+inputs:
+  "/Users/Evan/belt-erp/act_steel_frontend/macos/Pods/ReachabilitySwift/Sources/Reachability.swift": [1653996425, 235183982]

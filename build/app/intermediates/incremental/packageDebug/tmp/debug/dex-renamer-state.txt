@@ -1,0 +1,4 @@
+#Tue May 31 16:45:34 CST 2022
+base.0=/Users/Evan/belt-erp/act_steel_frontend/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

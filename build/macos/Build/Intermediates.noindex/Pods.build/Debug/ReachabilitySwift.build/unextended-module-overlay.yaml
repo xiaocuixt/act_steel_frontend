@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/Evan/belt-erp/act_steel_frontend/build/macos/Build/Products/Debug/ReachabilitySwift/Reachability.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/Evan/belt-erp/act_steel_frontend/build/macos/Build/Intermediates.noindex/Pods.build/Debug/ReachabilitySwift.build/unextended-module.modulemap",
+    }]
+  }]
+}

@@ -1,0 +1,423 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ConnectivityPlugin"
+provides-nominal:
+- "23connectivity_plus_macos18ConnectivityPluginC"
+provides-member:
+- ["23connectivity_plus_macos18ConnectivityPluginC", ""]
+provides-dynamic-lookup:
+- "connectivityProvider"
+- "connectivityUpdateHandler"
+- "eventSink"
+- "handle"
+- "onCancel"
+- "onListen"
+- "register"
+- "statusFrom"
+depends-top-level:
+- "AssignmentPrecedence"
+- "ConnectivityPlugin"
+- "ConnectivityProvider"
+- "ConnectivityType"
+- "FlutterError"
+- !private "FlutterEventChannel"
+- "FlutterEventSink"
+- "FlutterMethodCall"
+- !private "FlutterMethodChannel"
+- !private "FlutterMethodNotImplemented"
+- "FlutterPlugin"
+- "FlutterPluginRegistrar"
+- "FlutterResult"
+- "FlutterStreamHandler"
+- "NSObject"
+- !private "PathMonitorConnectivityProvider"
+- !private "ReachabilityConnectivityProvider"
+- "String"
+- !private "StringLiteralType"
+- !private "~="
+depends-member:
+- !private ["s7CVarArgP", "ConnectivityPlugin"]
+- !private ["s7CVarArgP", "FlutterEventChannel"]
+- !private ["s7CVarArgP", "FlutterMethodChannel"]
+- !private ["s7CVarArgP", "FlutterMethodNotImplemented"]
+- !private ["s7CVarArgP", "PathMonitorConnectivityProvider"]
+- !private ["s7CVarArgP", "ReachabilityConnectivityProvider"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "connectivityProvider"]
+- !private ["s7CVarArgP", "connectivityUpdateHandler"]
+- !private ["s7CVarArgP", "eventSink"]
+- ["s7CVarArgP", "handle"]
+- ["s7CVarArgP", "handleMethodCall"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "method"]
+- ["s7CVarArgP", "onCancel"]
+- ["s7CVarArgP", "onCancelWithArguments"]
+- ["s7CVarArgP", "onListen"]
+- ["s7CVarArgP", "onListenWithArguments"]
+- ["s7CVarArgP", "register"]
+- ["s7CVarArgP", "registerWithRegistrar"]
+- !private ["s7CVarArgP", "setStreamHandler"]
+- !private ["s7CVarArgP", "statusFrom"]
+- !private ["23connectivity_plus_macos18ConnectivityPluginC", "ConnectivityPlugin"]
+- ["23connectivity_plus_macos18ConnectivityPluginC", "ConnectivityProvider"]
+- ["23connectivity_plus_macos18ConnectivityPluginC", "ConnectivityType"]
+- ["23connectivity_plus_macos18ConnectivityPluginC", "FlutterError"]
+- !private ["23connectivity_plus_macos18ConnectivityPluginC", "FlutterEventChannel"]
+- ["23connectivity_plus_macos18ConnectivityPluginC", "FlutterEventSink"]
+- ["23connectivity_plus_macos18ConnectivityPluginC", "FlutterMethodCall"]
+- !private ["23connectivity_plus_macos18ConnectivityPluginC", "FlutterMethodChannel"]
+- !private ["23connectivity_plus_macos18ConnectivityPluginC", "FlutterMethodNotImplemented"]
+- ["23connectivity_plus_macos18ConnectivityPluginC", "FlutterPluginRegistrar"]
+- ["23connectivity_plus_macos18ConnectivityPluginC", "FlutterResult"]
+- !private ["23connectivity_plus_macos18ConnectivityPluginC", "PathMonitorConnectivityProvider"]
+- !private ["23connectivity_plus_macos18ConnectivityPluginC", "ReachabilityConnectivityProvider"]
+- ["23connectivity_plus_macos18ConnectivityPluginC", "String"]
+- !private ["23connectivity_plus_macos18ConnectivityPluginC", "connectivityProvider"]
+- !private ["23connectivity_plus_macos18ConnectivityPluginC", "connectivityUpdateHandler"]
+- ["23connectivity_plus_macos18ConnectivityPluginC", "deinit"]
+- !private ["23connectivity_plus_macos18ConnectivityPluginC", "eventSink"]
+- ["23connectivity_plus_macos18ConnectivityPluginC", "handle"]
+- ["23connectivity_plus_macos18ConnectivityPluginC", "handleMethodCall"]
+- ["23connectivity_plus_macos18ConnectivityPluginC", "init"]
+- ["23connectivity_plus_macos18ConnectivityPluginC", "onCancel"]
+- ["23connectivity_plus_macos18ConnectivityPluginC", "onCancelWithArguments"]
+- ["23connectivity_plus_macos18ConnectivityPluginC", "onListen"]
+- ["23connectivity_plus_macos18ConnectivityPluginC", "onListenWithArguments"]
+- ["23connectivity_plus_macos18ConnectivityPluginC", "register"]
+- ["23connectivity_plus_macos18ConnectivityPluginC", "registerWithRegistrar"]
+- !private ["23connectivity_plus_macos18ConnectivityPluginC", "statusFrom"]
+- !private ["23connectivity_plus_macos20ConnectivityProviderP", "connectivityUpdateHandler"]
+- !private ["23connectivity_plus_macos20ConnectivityProviderP", "currentConnectivityType"]
+- !private ["23connectivity_plus_macos20ConnectivityProviderP", "init"]
+- !private ["23connectivity_plus_macos20ConnectivityProviderP", "start"]
+- !private ["23connectivity_plus_macos20ConnectivityProviderP", "stop"]
+- ["23connectivity_plus_macos16ConnectivityTypeO", "cellular"]
+- ["23connectivity_plus_macos16ConnectivityTypeO", "none"]
+- ["23connectivity_plus_macos16ConnectivityTypeO", "wifi"]
+- ["23connectivity_plus_macos16ConnectivityTypeO", "wiredEthernet"]
+- !private ["s28CustomDebugStringConvertibleP", "ConnectivityPlugin"]
+- !private ["s28CustomDebugStringConvertibleP", "FlutterEventChannel"]
+- !private ["s28CustomDebugStringConvertibleP", "FlutterMethodChannel"]
+- !private ["s28CustomDebugStringConvertibleP", "FlutterMethodNotImplemented"]
+- !private ["s28CustomDebugStringConvertibleP", "PathMonitorConnectivityProvider"]
+- !private ["s28CustomDebugStringConvertibleP", "ReachabilityConnectivityProvider"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "connectivityProvider"]
+- !private ["s28CustomDebugStringConvertibleP", "connectivityUpdateHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "eventSink"]
+- ["s28CustomDebugStringConvertibleP", "handle"]
+- ["s28CustomDebugStringConvertibleP", "handleMethodCall"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "method"]
+- ["s28CustomDebugStringConvertibleP", "onCancel"]
+- ["s28CustomDebugStringConvertibleP", "onCancelWithArguments"]
+- ["s28CustomDebugStringConvertibleP", "onListen"]
+- ["s28CustomDebugStringConvertibleP", "onListenWithArguments"]
+- ["s28CustomDebugStringConvertibleP", "register"]
+- ["s28CustomDebugStringConvertibleP", "registerWithRegistrar"]
+- !private ["s28CustomDebugStringConvertibleP", "setStreamHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "statusFrom"]
+- !private ["s23CustomStringConvertibleP", "ConnectivityPlugin"]
+- !private ["s23CustomStringConvertibleP", "FlutterEventChannel"]
+- !private ["s23CustomStringConvertibleP", "FlutterMethodChannel"]
+- !private ["s23CustomStringConvertibleP", "FlutterMethodNotImplemented"]
+- !private ["s23CustomStringConvertibleP", "PathMonitorConnectivityProvider"]
+- !private ["s23CustomStringConvertibleP", "ReachabilityConnectivityProvider"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "connectivityProvider"]
+- !private ["s23CustomStringConvertibleP", "connectivityUpdateHandler"]
+- !private ["s23CustomStringConvertibleP", "eventSink"]
+- ["s23CustomStringConvertibleP", "handle"]
+- ["s23CustomStringConvertibleP", "handleMethodCall"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "method"]
+- ["s23CustomStringConvertibleP", "onCancel"]
+- ["s23CustomStringConvertibleP", "onCancelWithArguments"]
+- ["s23CustomStringConvertibleP", "onListen"]
+- ["s23CustomStringConvertibleP", "onListenWithArguments"]
+- ["s23CustomStringConvertibleP", "register"]
+- ["s23CustomStringConvertibleP", "registerWithRegistrar"]
+- !private ["s23CustomStringConvertibleP", "setStreamHandler"]
+- !private ["s23CustomStringConvertibleP", "statusFrom"]
+- !private ["SQ", "ConnectivityPlugin"]
+- !private ["SQ", "FlutterEventChannel"]
+- !private ["SQ", "FlutterMethodChannel"]
+- !private ["SQ", "FlutterMethodNotImplemented"]
+- !private ["SQ", "PathMonitorConnectivityProvider"]
+- !private ["SQ", "ReachabilityConnectivityProvider"]
+- ["SQ", ""]
+- ["SQ", "cellular"]
+- !private ["SQ", "connectivityProvider"]
+- !private ["SQ", "connectivityUpdateHandler"]
+- !private ["SQ", "eventSink"]
+- ["SQ", "handle"]
+- ["SQ", "handleMethodCall"]
+- !private ["SQ", "init"]
+- !private ["SQ", "method"]
+- ["SQ", "none"]
+- ["SQ", "onCancel"]
+- ["SQ", "onCancelWithArguments"]
+- ["SQ", "onListen"]
+- ["SQ", "onListenWithArguments"]
+- ["SQ", "register"]
+- ["SQ", "registerWithRegistrar"]
+- !private ["SQ", "setStreamHandler"]
+- !private ["SQ", "statusFrom"]
+- ["SQ", "wifi"]
+- ["SQ", "wiredEthernet"]
+- !private ["So19FlutterEventChannelC", "init"]
+- !private ["So19FlutterEventChannelC", "setStreamHandler"]
+- !private ["So17FlutterMethodCallC", "method"]
+- !private ["So20FlutterMethodChannelC", "init"]
+- !private ["So13FlutterPluginP", "ConnectivityPlugin"]
+- !private ["So13FlutterPluginP", "FlutterEventChannel"]
+- !private ["So13FlutterPluginP", "FlutterMethodChannel"]
+- !private ["So13FlutterPluginP", "FlutterMethodNotImplemented"]
+- !private ["So13FlutterPluginP", "PathMonitorConnectivityProvider"]
+- !private ["So13FlutterPluginP", "ReachabilityConnectivityProvider"]
+- ["So13FlutterPluginP", ""]
+- !private ["So13FlutterPluginP", "connectivityProvider"]
+- !private ["So13FlutterPluginP", "connectivityUpdateHandler"]
+- !private ["So13FlutterPluginP", "eventSink"]
+- ["So13FlutterPluginP", "handle"]
+- ["So13FlutterPluginP", "handleMethodCall"]
+- !private ["So13FlutterPluginP", "init"]
+- ["So13FlutterPluginP", "onCancel"]
+- ["So13FlutterPluginP", "onCancelWithArguments"]
+- ["So13FlutterPluginP", "onListen"]
+- ["So13FlutterPluginP", "onListenWithArguments"]
+- ["So13FlutterPluginP", "register"]
+- ["So13FlutterPluginP", "registerWithRegistrar"]
+- !private ["So13FlutterPluginP", "statusFrom"]
+- !private ["So22FlutterPluginRegistrarP", "addMethodCallDelegate"]
+- !private ["So22FlutterPluginRegistrarP", "messenger"]
+- !private ["So20FlutterStreamHandlerP", "ConnectivityPlugin"]
+- !private ["So20FlutterStreamHandlerP", "FlutterEventChannel"]
+- !private ["So20FlutterStreamHandlerP", "FlutterMethodChannel"]
+- !private ["So20FlutterStreamHandlerP", "FlutterMethodNotImplemented"]
+- !private ["So20FlutterStreamHandlerP", "PathMonitorConnectivityProvider"]
+- !private ["So20FlutterStreamHandlerP", "ReachabilityConnectivityProvider"]
+- ["So20FlutterStreamHandlerP", ""]
+- !private ["So20FlutterStreamHandlerP", "connectivityProvider"]
+- !private ["So20FlutterStreamHandlerP", "connectivityUpdateHandler"]
+- !private ["So20FlutterStreamHandlerP", "eventSink"]
+- ["So20FlutterStreamHandlerP", "handle"]
+- ["So20FlutterStreamHandlerP", "handleMethodCall"]
+- !private ["So20FlutterStreamHandlerP", "init"]
+- ["So20FlutterStreamHandlerP", "onCancel"]
+- ["So20FlutterStreamHandlerP", "onCancelWithArguments"]
+- ["So20FlutterStreamHandlerP", "onListen"]
+- ["So20FlutterStreamHandlerP", "onListenWithArguments"]
+- ["So20FlutterStreamHandlerP", "register"]
+- ["So20FlutterStreamHandlerP", "registerWithRegistrar"]
+- !private ["So20FlutterStreamHandlerP", "statusFrom"]
+- !private ["SH", "ConnectivityPlugin"]
+- !private ["SH", "FlutterEventChannel"]
+- !private ["SH", "FlutterMethodChannel"]
+- !private ["SH", "FlutterMethodNotImplemented"]
+- !private ["SH", "PathMonitorConnectivityProvider"]
+- !private ["SH", "ReachabilityConnectivityProvider"]
+- ["SH", ""]
+- ["SH", "cellular"]
+- !private ["SH", "connectivityProvider"]
+- !private ["SH", "connectivityUpdateHandler"]
+- !private ["SH", "eventSink"]
+- ["SH", "handle"]
+- ["SH", "handleMethodCall"]
+- !private ["SH", "init"]
+- !private ["SH", "method"]
+- ["SH", "none"]
+- ["SH", "onCancel"]
+- ["SH", "onCancelWithArguments"]
+- ["SH", "onListen"]
+- ["SH", "onListenWithArguments"]
+- ["SH", "register"]
+- ["SH", "registerWithRegistrar"]
+- !private ["SH", "setStreamHandler"]
+- !private ["SH", "statusFrom"]
+- ["SH", "wifi"]
+- ["SH", "wiredEthernet"]
+- !private ["So8NSObjectC", "ConnectivityPlugin"]
+- ["So8NSObjectC", "ConnectivityProvider"]
+- ["So8NSObjectC", "ConnectivityType"]
+- ["So8NSObjectC", "FlutterError"]
+- !private ["So8NSObjectC", "FlutterEventChannel"]
+- ["So8NSObjectC", "FlutterEventSink"]
+- ["So8NSObjectC", "FlutterMethodCall"]
+- !private ["So8NSObjectC", "FlutterMethodChannel"]
+- !private ["So8NSObjectC", "FlutterMethodNotImplemented"]
+- ["So8NSObjectC", "FlutterPluginRegistrar"]
+- ["So8NSObjectC", "FlutterResult"]
+- !private ["So8NSObjectC", "PathMonitorConnectivityProvider"]
+- !private ["So8NSObjectC", "ReachabilityConnectivityProvider"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "connectivityProvider"]
+- ["So8NSObjectC", "connectivityUpdateHandler"]
+- ["So8NSObjectC", "eventSink"]
+- ["So8NSObjectC", "handle"]
+- ["So8NSObjectC", "handleMethodCall"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "method"]
+- ["So8NSObjectC", "onCancel"]
+- ["So8NSObjectC", "onCancelWithArguments"]
+- ["So8NSObjectC", "onListen"]
+- ["So8NSObjectC", "onListenWithArguments"]
+- ["So8NSObjectC", "register"]
+- ["So8NSObjectC", "registerWithRegistrar"]
+- !private ["So8NSObjectC", "setStreamHandler"]
+- ["So8NSObjectC", "statusFrom"]
+- !private ["So8NSObjectP", "ConnectivityPlugin"]
+- !private ["So8NSObjectP", "FlutterEventChannel"]
+- !private ["So8NSObjectP", "FlutterMethodChannel"]
+- !private ["So8NSObjectP", "FlutterMethodNotImplemented"]
+- !private ["So8NSObjectP", "PathMonitorConnectivityProvider"]
+- !private ["So8NSObjectP", "ReachabilityConnectivityProvider"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addMethodCallDelegate"]
+- !private ["So8NSObjectP", "connectivityProvider"]
+- !private ["So8NSObjectP", "connectivityUpdateHandler"]
+- !private ["So8NSObjectP", "currentConnectivityType"]
+- !private ["So8NSObjectP", "eventSink"]
+- ["So8NSObjectP", "handle"]
+- ["So8NSObjectP", "handleMethodCall"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "messenger"]
+- !private ["So8NSObjectP", "method"]
+- ["So8NSObjectP", "onCancel"]
+- ["So8NSObjectP", "onCancelWithArguments"]
+- ["So8NSObjectP", "onListen"]
+- ["So8NSObjectP", "onListenWithArguments"]
+- ["So8NSObjectP", "register"]
+- ["So8NSObjectP", "registerWithRegistrar"]
+- !private ["So8NSObjectP", "setStreamHandler"]
+- !private ["So8NSObjectP", "start"]
+- !private ["So8NSObjectP", "statusFrom"]
+- !private ["So8NSObjectP", "stop"]
+- !private ["23connectivity_plus_macos31PathMonitorConnectivityProviderC", "deinit"]
+- !private ["23connectivity_plus_macos31PathMonitorConnectivityProviderC", "init"]
+- !private ["23connectivity_plus_macos32ReachabilityConnectivityProviderC", "deinit"]
+- !private ["23connectivity_plus_macos32ReachabilityConnectivityProviderC", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ConnectivityPlugin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FlutterEventChannel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FlutterMethodChannel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FlutterMethodNotImplemented"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PathMonitorConnectivityProvider"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ReachabilityConnectivityProvider"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "connectivityProvider"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "connectivityUpdateHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "eventSink"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "handle"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "handleMethodCall"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "method"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onCancel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onCancelWithArguments"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onListen"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onListenWithArguments"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "register"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "registerWithRegistrar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setStreamHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusFrom"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ConnectivityPlugin"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FlutterEventChannel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FlutterMethodChannel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FlutterMethodNotImplemented"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PathMonitorConnectivityProvider"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ReachabilityConnectivityProvider"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "connectivityProvider"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "connectivityUpdateHandler"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "eventSink"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "handle"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "handleMethodCall"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "method"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "onCancel"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "onCancelWithArguments"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "onListen"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "onListenWithArguments"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "register"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "registerWithRegistrar"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setStreamHandler"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "statusFrom"]
+depends-nominal:
+- "s7CVarArgP"
+- "23connectivity_plus_macos18ConnectivityPluginC"
+- !private "23connectivity_plus_macos20ConnectivityProviderP"
+- "23connectivity_plus_macos16ConnectivityTypeO"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- !private "So19FlutterEventChannelC"
+- !private "So17FlutterMethodCallC"
+- !private "So20FlutterMethodChannelC"
+- "So13FlutterPluginP"
+- !private "So22FlutterPluginRegistrarP"
+- "So20FlutterStreamHandlerP"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "23connectivity_plus_macos31PathMonitorConnectivityProviderC"
+- !private "23connectivity_plus_macos32ReachabilityConnectivityProviderC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/Evan/belt-erp/act_steel_frontend/build/macos/Build/Products/Debug/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterPluginMacOS.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterPluginRegistrarMacOS.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterMacOS.h"
+- "/Users/Evan/belt-erp/act_steel_frontend/macos/Pods/Target Support Files/connectivity_plus_macos/connectivity_plus_macos-umbrella.h"
+- "/Users/Evan/belt-erp/act_steel_frontend/macos/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-umbrella.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterEngine.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterTexture.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterAppDelegate.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterBinaryMessenger.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterViewController.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterCodecs.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterChannels.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterMacros.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterPlatformViews.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterDartProject.h"
+- "/Users/Evan/belt-erp/act_steel_frontend/build/macos/Build/Products/Debug/ReachabilitySwift/Reachability.framework/Versions/A/Headers/Reachability-Swift.h"
+- "/Users/Evan/belt-erp/act_steel_frontend/build/macos/Build/Intermediates.noindex/Pods.build/Debug/connectivity_plus_macos.build/unextended-module.modulemap"
+- "/Users/Evan/belt-erp/act_steel_frontend/build/macos/Build/Intermediates.noindex/Pods.build/Debug/ReachabilitySwift.build/module.modulemap"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Network.framework/Headers/Network.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bbf8ada70432bf4608a0fa4a18497677"

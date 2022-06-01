@@ -1,0 +1,300 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PathMonitorConnectivityProvider"
+provides-nominal:
+- "23connectivity_plus_macos31PathMonitorConnectivityProviderC"
+provides-member:
+- ["23connectivity_plus_macos31PathMonitorConnectivityProviderC", ""]
+provides-dynamic-lookup:
+- "_pathMonitor"
+- "connectivityUpdateHandler"
+- "currentConnectivityType"
+- "ensurePathMonitor"
+- "pathUpdateHandler"
+- "queue"
+- "start"
+- "stop"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "ConnectivityProvider"
+- "ConnectivityType"
+- "ConnectivityUpdateHandler"
+- "DispatchQueue"
+- "NSObject"
+- "NWPath"
+- "NWPathMonitor"
+- "PathMonitorConnectivityProvider"
+depends-member:
+- ["s7CVarArgP", "ConnectivityUpdateHandler"]
+- ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "NWPathMonitor"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_pathMonitor"]
+- ["s7CVarArgP", "connectivityUpdateHandler"]
+- ["s7CVarArgP", "currentConnectivityType"]
+- !private ["s7CVarArgP", "ensurePathMonitor"]
+- ["s7CVarArgP", "global"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "pathUpdateHandler"]
+- !private ["s7CVarArgP", "queue"]
+- ["s7CVarArgP", "start"]
+- ["s7CVarArgP", "stop"]
+- ["23connectivity_plus_macos20ConnectivityProviderP", "ConnectivityUpdateHandler"]
+- ["23connectivity_plus_macos20ConnectivityProviderP", "DispatchQueue"]
+- !private ["23connectivity_plus_macos20ConnectivityProviderP", "NWPathMonitor"]
+- ["23connectivity_plus_macos20ConnectivityProviderP", ""]
+- !private ["23connectivity_plus_macos20ConnectivityProviderP", "_pathMonitor"]
+- ["23connectivity_plus_macos20ConnectivityProviderP", "connectivityUpdateHandler"]
+- ["23connectivity_plus_macos20ConnectivityProviderP", "currentConnectivityType"]
+- !private ["23connectivity_plus_macos20ConnectivityProviderP", "ensurePathMonitor"]
+- !private ["23connectivity_plus_macos20ConnectivityProviderP", "pathUpdateHandler"]
+- !private ["23connectivity_plus_macos20ConnectivityProviderP", "queue"]
+- ["23connectivity_plus_macos20ConnectivityProviderP", "start"]
+- ["23connectivity_plus_macos20ConnectivityProviderP", "stop"]
+- !private ["23connectivity_plus_macos16ConnectivityTypeO", "cellular"]
+- !private ["23connectivity_plus_macos16ConnectivityTypeO", "none"]
+- !private ["23connectivity_plus_macos16ConnectivityTypeO", "wifi"]
+- !private ["23connectivity_plus_macos16ConnectivityTypeO", "wiredEthernet"]
+- ["s28CustomDebugStringConvertibleP", "ConnectivityUpdateHandler"]
+- ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "NWPathMonitor"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_pathMonitor"]
+- ["s28CustomDebugStringConvertibleP", "connectivityUpdateHandler"]
+- ["s28CustomDebugStringConvertibleP", "currentConnectivityType"]
+- !private ["s28CustomDebugStringConvertibleP", "ensurePathMonitor"]
+- ["s28CustomDebugStringConvertibleP", "global"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "pathUpdateHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "queue"]
+- ["s28CustomDebugStringConvertibleP", "start"]
+- !private ["s28CustomDebugStringConvertibleP", "status"]
+- ["s28CustomDebugStringConvertibleP", "stop"]
+- !private ["s28CustomDebugStringConvertibleP", "usesInterfaceType"]
+- ["s23CustomStringConvertibleP", "ConnectivityUpdateHandler"]
+- ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "NWPathMonitor"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_pathMonitor"]
+- ["s23CustomStringConvertibleP", "connectivityUpdateHandler"]
+- ["s23CustomStringConvertibleP", "currentConnectivityType"]
+- !private ["s23CustomStringConvertibleP", "ensurePathMonitor"]
+- ["s23CustomStringConvertibleP", "global"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "pathUpdateHandler"]
+- !private ["s23CustomStringConvertibleP", "queue"]
+- ["s23CustomStringConvertibleP", "start"]
+- ["s23CustomStringConvertibleP", "stop"]
+- ["So18OS_dispatch_objectC", "global"]
+- ["So17OS_dispatch_queueC", "global"]
+- ["SQ", "ConnectivityUpdateHandler"]
+- ["SQ", "DispatchQueue"]
+- !private ["SQ", "NWPathMonitor"]
+- ["SQ", ""]
+- !private ["SQ", "_pathMonitor"]
+- ["SQ", "background"]
+- !private ["SQ", "cellular"]
+- ["SQ", "connectivityUpdateHandler"]
+- ["SQ", "currentConnectivityType"]
+- !private ["SQ", "ensurePathMonitor"]
+- ["SQ", "global"]
+- !private ["SQ", "init"]
+- !private ["SQ", "none"]
+- !private ["SQ", "pathUpdateHandler"]
+- !private ["SQ", "queue"]
+- !private ["SQ", "satisfied"]
+- ["SQ", "start"]
+- !private ["SQ", "status"]
+- ["SQ", "stop"]
+- !private ["SQ", "usesInterfaceType"]
+- !private ["SQ", "wifi"]
+- !private ["SQ", "wiredEthernet"]
+- ["SH", "ConnectivityUpdateHandler"]
+- ["SH", "DispatchQueue"]
+- !private ["SH", "NWPathMonitor"]
+- ["SH", ""]
+- !private ["SH", "_pathMonitor"]
+- ["SH", "background"]
+- !private ["SH", "cellular"]
+- ["SH", "connectivityUpdateHandler"]
+- ["SH", "currentConnectivityType"]
+- !private ["SH", "ensurePathMonitor"]
+- ["SH", "global"]
+- !private ["SH", "init"]
+- !private ["SH", "none"]
+- !private ["SH", "pathUpdateHandler"]
+- !private ["SH", "queue"]
+- !private ["SH", "satisfied"]
+- ["SH", "start"]
+- ["SH", "stop"]
+- !private ["SH", "wifi"]
+- !private ["SH", "wiredEthernet"]
+- !private ["7Network11NWInterfaceV13InterfaceTypeO", "cellular"]
+- !private ["7Network11NWInterfaceV13InterfaceTypeO", "wifi"]
+- !private ["7Network11NWInterfaceV13InterfaceTypeO", "wiredEthernet"]
+- ["So8NSObjectC", "ConnectivityType"]
+- ["So8NSObjectC", "ConnectivityUpdateHandler"]
+- ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "NWPath"]
+- ["So8NSObjectC", "NWPathMonitor"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "_pathMonitor"]
+- ["So8NSObjectC", "connectivityUpdateHandler"]
+- ["So8NSObjectC", "currentConnectivityType"]
+- ["So8NSObjectC", "ensurePathMonitor"]
+- ["So8NSObjectC", "global"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "pathUpdateHandler"]
+- ["So8NSObjectC", "queue"]
+- ["So8NSObjectC", "start"]
+- ["So8NSObjectC", "stop"]
+- ["So8NSObjectP", "ConnectivityUpdateHandler"]
+- ["So8NSObjectP", "DispatchQueue"]
+- !private ["So8NSObjectP", "NWPathMonitor"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_pathMonitor"]
+- ["So8NSObjectP", "connectivityUpdateHandler"]
+- ["So8NSObjectP", "currentConnectivityType"]
+- !private ["So8NSObjectP", "ensurePathMonitor"]
+- ["So8NSObjectP", "global"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "pathUpdateHandler"]
+- !private ["So8NSObjectP", "queue"]
+- ["So8NSObjectP", "start"]
+- ["So8NSObjectP", "stop"]
+- !private ["7Network6NWPathV", "status"]
+- !private ["7Network6NWPathV", "usesInterfaceType"]
+- !private ["7Network13NWPathMonitorC", "cancel"]
+- !private ["7Network13NWPathMonitorC", "currentPath"]
+- !private ["7Network13NWPathMonitorC", "init"]
+- !private ["7Network13NWPathMonitorC", "pathUpdateHandler"]
+- !private ["7Network13NWPathMonitorC", "start"]
+- ["So9OS_objectC", "global"]
+- ["23connectivity_plus_macos31PathMonitorConnectivityProviderC", "ConnectivityType"]
+- ["23connectivity_plus_macos31PathMonitorConnectivityProviderC", "ConnectivityUpdateHandler"]
+- ["23connectivity_plus_macos31PathMonitorConnectivityProviderC", "DispatchQueue"]
+- ["23connectivity_plus_macos31PathMonitorConnectivityProviderC", "NWPath"]
+- ["23connectivity_plus_macos31PathMonitorConnectivityProviderC", "NWPathMonitor"]
+- !private ["23connectivity_plus_macos31PathMonitorConnectivityProviderC", "_pathMonitor"]
+- ["23connectivity_plus_macos31PathMonitorConnectivityProviderC", "connectivityUpdateHandler"]
+- ["23connectivity_plus_macos31PathMonitorConnectivityProviderC", "currentConnectivityType"]
+- ["23connectivity_plus_macos31PathMonitorConnectivityProviderC", "deinit"]
+- !private ["23connectivity_plus_macos31PathMonitorConnectivityProviderC", "ensurePathMonitor"]
+- ["23connectivity_plus_macos31PathMonitorConnectivityProviderC", "init"]
+- !private ["23connectivity_plus_macos31PathMonitorConnectivityProviderC", "pathUpdateHandler"]
+- !private ["23connectivity_plus_macos31PathMonitorConnectivityProviderC", "queue"]
+- ["23connectivity_plus_macos31PathMonitorConnectivityProviderC", "start"]
+- ["23connectivity_plus_macos31PathMonitorConnectivityProviderC", "stop"]
+- ["8Dispatch0A3QoSV0B6SClassO", "background"]
+- ["7Combine9SchedulerP", "global"]
+- !private ["7Network6NWPathV6StatusO", "satisfied"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ConnectivityUpdateHandler"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NWPathMonitor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_pathMonitor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "connectivityUpdateHandler"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "currentConnectivityType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ensurePathMonitor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pathUpdateHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "queue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "start"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "stop"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ConnectivityUpdateHandler"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DispatchQueue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NWPathMonitor"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "_pathMonitor"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "connectivityUpdateHandler"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "currentConnectivityType"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ensurePathMonitor"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "global"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pathUpdateHandler"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "queue"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "start"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stop"]
+depends-nominal:
+- "s7CVarArgP"
+- "23connectivity_plus_macos20ConnectivityProviderP"
+- !private "23connectivity_plus_macos16ConnectivityTypeO"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "So18OS_dispatch_objectC"
+- "So17OS_dispatch_queueC"
+- "SQ"
+- "SH"
+- !private "7Network11NWInterfaceV13InterfaceTypeO"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "7Network6NWPathV"
+- !private "7Network13NWPathMonitorC"
+- "So9OS_objectC"
+- "23connectivity_plus_macos31PathMonitorConnectivityProviderC"
+- "8Dispatch0A3QoSV0B6SClassO"
+- "7Combine9SchedulerP"
+- !private "7Network6NWPathV6StatusO"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Network.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/Evan/belt-erp/act_steel_frontend/build/macos/Build/Products/Debug/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterPluginMacOS.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterPluginRegistrarMacOS.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterMacOS.h"
+- "/Users/Evan/belt-erp/act_steel_frontend/macos/Pods/Target Support Files/connectivity_plus_macos/connectivity_plus_macos-umbrella.h"
+- "/Users/Evan/belt-erp/act_steel_frontend/macos/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-umbrella.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterEngine.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterTexture.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterAppDelegate.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterBinaryMessenger.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterViewController.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterCodecs.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterChannels.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterMacros.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterPlatformViews.h"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterDartProject.h"
+- "/Users/Evan/belt-erp/act_steel_frontend/build/macos/Build/Products/Debug/ReachabilitySwift/Reachability.framework/Versions/A/Headers/Reachability-Swift.h"
+- "/Users/Evan/belt-erp/act_steel_frontend/build/macos/Build/Intermediates.noindex/Pods.build/Debug/connectivity_plus_macos.build/unextended-module.modulemap"
+- "/Users/Evan/belt-erp/act_steel_frontend/build/macos/Build/Intermediates.noindex/Pods.build/Debug/ReachabilitySwift.build/module.modulemap"
+- "/Users/Evan/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Network.framework/Headers/Network.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b125bd69898f9fc5dd0972f204d67c55"
